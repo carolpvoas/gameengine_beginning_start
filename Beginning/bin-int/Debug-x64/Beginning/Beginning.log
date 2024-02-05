@@ -1,0 +1,110 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  bgpch.cpp
+  glad.c
+  EventHandler.cpp
+C:\gameengine_beginning_start\Beginning\Beginning\src\Beginning\Application.h(31,19): error C2065: 'EventHandler': undeclared identifier
+C:\gameengine_beginning_start\Beginning\Beginning\src\Beginning\Application.h(31,8): error C2923: 'std::unique_ptr': 'EventHandler' is not a valid template type argument for parameter '_Ty'
+C:\gameengine_beginning_start\Beginning\Beginning\src\Beginning\Application.h(31,19): message : see declaration of 'EventHandler'
+C:\gameengine_beginning_start\Beginning\Beginning\src\Beginning\Application.h(31,8): error C2976: 'std::unique_ptr': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(3213,1): message : see declaration of 'std::unique_ptr'
+  Log.cpp
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2400,11): warning C4804: '<=': unsafe use of type 'bool' in operation
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2428,26): message : see reference to function template instantiation 'bool fmt::v9::detail::is_name_start<bool>(Char)' being compiled
+          with
+          [
+              Char=bool
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2437,36): message : see reference to function template instantiation 'const Char *fmt::v9::detail::do_parse_arg_id<Char,fmt::v9::detail::parse_replacement_field::id_adapter&>(const Char *,const Char *,IDHandler)' being compiled
+          with
+          [
+              Char=char,
+              IDHandler=fmt::v9::detail::parse_replacement_field::id_adapter &
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2658,13): message : see reference to function template instantiation 'const Char *fmt::v9::detail::parse_arg_id<Char,fmt::v9::detail::parse_replacement_field::id_adapter&>(const Char *,const Char *,IDHandler)' being compiled
+          with
+          [
+              Char=char,
+              IDHandler=fmt::v9::detail::parse_replacement_field::id_adapter &
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2688,21): message : see reference to function template instantiation 'const Char *fmt::v9::detail::parse_replacement_field<char,Handler&>(const Char *,const Char *,fmt::v9::detail::format_string_checker<Char,fmt::v9::detail::error_handler,int>&)' being compiled
+          with
+          [
+              Char=char,
+              Handler=checker
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(3008,8): message : see reference to function template instantiation 'void fmt::v9::detail::parse_format_string<true,char,checker>(fmt::v9::basic_string_view<char>,Handler &&)' being compiled
+          with
+          [
+              Handler=checker
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(3162,13): message : see reference to function template instantiation 'void fmt::v9::detail::check_format_string<int&,S,0>(S)' being compiled
+          with
+          [
+              S=spdlog::details::fmt_helper::pad2::<lambda_1>::()::FMT_COMPILE_STRING
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\details\fmt_helper.h(91,54): message : see reference to function template instantiation 'fmt::v9::basic_format_string<char,int &>::basic_format_string<spdlog::details::fmt_helper::pad2::<lambda_1>::()::FMT_COMPILE_STRING,0>(const S &)' being compiled
+          with
+          [
+              S=spdlog::details::fmt_helper::pad2::<lambda_1>::()::FMT_COMPILE_STRING
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\details\fmt_helper.h(91,27): message : see the first reference to 'fmt::v9::basic_format_string<char,int &>::basic_format_string' in 'spdlog::details::fmt_helper::pad2'
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2400,23): warning C4804: '<=': unsafe use of type 'bool' in operation
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2400,37): warning C4804: '<=': unsafe use of type 'bool' in operation
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2400,49): warning C4804: '<=': unsafe use of type 'bool' in operation
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2400,62): warning C4806: '==': unsafe operation: no value of type 'Char' promoted to type 'char' can equal the given constant
+          with
+          [
+              Char=bool
+          ]
+  Application.cpp
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2400,11): warning C4804: '<=': unsafe use of type 'bool' in operation
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2428,26): message : see reference to function template instantiation 'bool fmt::v9::detail::is_name_start<bool>(Char)' being compiled
+          with
+          [
+              Char=bool
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2437,36): message : see reference to function template instantiation 'const Char *fmt::v9::detail::do_parse_arg_id<Char,fmt::v9::detail::parse_replacement_field::id_adapter&>(const Char *,const Char *,IDHandler)' being compiled
+          with
+          [
+              Char=char,
+              IDHandler=fmt::v9::detail::parse_replacement_field::id_adapter &
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2658,13): message : see reference to function template instantiation 'const Char *fmt::v9::detail::parse_arg_id<Char,fmt::v9::detail::parse_replacement_field::id_adapter&>(const Char *,const Char *,IDHandler)' being compiled
+          with
+          [
+              Char=char,
+              IDHandler=fmt::v9::detail::parse_replacement_field::id_adapter &
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2688,21): message : see reference to function template instantiation 'const Char *fmt::v9::detail::parse_replacement_field<char,Handler&>(const Char *,const Char *,fmt::v9::detail::format_string_checker<Char,fmt::v9::detail::error_handler,int>&)' being compiled
+          with
+          [
+              Char=char,
+              Handler=checker
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(3008,8): message : see reference to function template instantiation 'void fmt::v9::detail::parse_format_string<true,char,checker>(fmt::v9::basic_string_view<char>,Handler &&)' being compiled
+          with
+          [
+              Handler=checker
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(3162,13): message : see reference to function template instantiation 'void fmt::v9::detail::check_format_string<int&,S,0>(S)' being compiled
+          with
+          [
+              S=spdlog::details::fmt_helper::pad2::<lambda_1>::()::FMT_COMPILE_STRING
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\details\fmt_helper.h(91,54): message : see reference to function template instantiation 'fmt::v9::basic_format_string<char,int &>::basic_format_string<spdlog::details::fmt_helper::pad2::<lambda_1>::()::FMT_COMPILE_STRING,0>(const S &)' being compiled
+          with
+          [
+              S=spdlog::details::fmt_helper::pad2::<lambda_1>::()::FMT_COMPILE_STRING
+          ]
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\details\fmt_helper.h(91,27): message : see the first reference to 'fmt::v9::basic_format_string<char,int &>::basic_format_string' in 'spdlog::details::fmt_helper::pad2'
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2400,23): warning C4804: '<=': unsafe use of type 'bool' in operation
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2400,37): warning C4804: '<=': unsafe use of type 'bool' in operation
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2400,49): warning C4804: '<=': unsafe use of type 'bool' in operation
+C:\gameengine_beginning_start\Beginning\vendor\spdlog\include\spdlog\fmt\bundled\core.h(2400,62): warning C4806: '==': unsafe operation: no value of type 'Char' promoted to type 'char' can equal the given constant
+          with
+          [
+              Char=bool
+          ]
+  Renderer.cpp
+  WindowsInput.cpp
+  Generating Code...
